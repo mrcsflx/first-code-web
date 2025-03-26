@@ -38,3 +38,201 @@
     text-align: center;
     font-size: 30px;
 }
+
+
+#imgs{
+    width: 100%;
+    display: flex;
+}
+
+.cntimg {
+    width: 33%;
+    text-align: center;
+}
+
+.block, .ima {
+    display: block;
+}
+
+#col2, .col2_1 {
+    width: 33%;
+
+}
+
+.ima {
+    width: 70%;
+    padding-left: 15%;
+    padding-top: 3%;
+    margin-top: 5%;
+}
+
+#feed, #crit {
+    color: white;
+    text-align: center;
+}
+
+#feed {
+    font-size: 40px;
+}
+
+#crit {
+    font-size: 30px;
+}
+
+#fon {
+    background-color: rgb(1, 152, 152);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#conttxt, #contmaps {
+    width: 50%;
+    margin-right: 5%;
+}
+
+#conttxt {
+    margin-left: 10%;
+}
+
+.neg  {
+    font-size: 25px;
+}
+
+.neg, .txt {
+    text-align: justify;
+}
+
+#artic, .cntimg {
+    display: flex; 
+}
+
+.cntimg {
+    width: 100%;
+}
+
+#fontr {
+    background-color: rgba(15, 15, 15, 0.552);
+    display: flex;
+}
+
+#sepa {
+    display: flex;
+    width: 67%;
+}
+
+.txtblan, #año {
+    color: white;
+}
+
+#cent {
+    margin-left: 10%;
+}
+
+#fonneg {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:1400px ) {
+    #maps {
+        width: 500px;
+        height: 500px;
+    }
+
+    #pres, #pres2 {
+        font-size: 40px;
+    }
+
+    #pro {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:1000px ) {
+    #maps {
+        width: 400px;
+        height: 500px;
+    }
+
+    #pres, #pres2 {
+        font-size: 27px;
+    }
+
+}
+
+@media screen and (max-width:600px ){
+    #feed {
+        font-size: 30px;
+    }
+
+    #crit {
+        font-size: 20px;
+    }
+
+    #pres {
+        font-size: 25px;
+    }
+
+    #pres2 {
+        font-size: 20px;
+    }
+
+    #fontr, #artic {
+        display: block;
+    }
+
+    #conttxt {
+        margin-left: 0%;
+    }
+
+    .col2_1 {
+        margin-left: 30%;
+        width: 100%;
+    }
+
+    #col2 {
+        width: 100%;
+    }
+
+    #conttxt {
+        width: 100%;
+    }
+
+    #maps {
+        height: 300px;
+         width: 450px;
+    }
+
+    .ima {
+        width:27%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .cntimg {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    #imgs{
+        width: 100%;
+    }
+
+    #imgs{
+        width: 100%;
+        display: block;
+    }
+    
+    .cntimg {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .block, .ima {
+        display: flex;
+    }
+
+}
